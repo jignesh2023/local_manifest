@@ -11,7 +11,7 @@
     <remote name="org-evp" fetch="https://github.com/MTK-DM-810-UNIFIED" />
     <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="risingos"/>
     <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen" />
-    <project path="kernel/xiaomi/everpal" name="kernel_redmi_rosemary" remote="ped-gh" revision="thirteen-plus" />
+    <project path="device/xiaomi/everpal-kernel" name="device_xiaomi_everpal-kernel" remote="my-gh" revision="thirteen" />
     <remove-project name="platform/system/bpf" />
     <project path="system/bpf" name="system_bpf" remote="evp-gh" revision="thirteen" />
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
