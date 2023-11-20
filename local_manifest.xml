@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="my-gh" fetch="https://github.com/jignesh2023" />
-    <remote name="my-gl" fetch="https://gitlab.com/mmtrt" />
     <remote name="evp-gh" fetch="https://github.com/Xiaomi-MT6833" />
     <remote name="evp-gl" fetch="https://gitlab.com/Xiaomi-MT6833" />
     <remote name="pe-gh" fetch="https://github.com/PixelExperience" />
-    <remote name="ped-gh" fetch="https://github.com/PixelExperience-Devices" />
     <remote name="los-gh" fetch="https://github.com/LineageOS" />
     <remote name="clang" fetch="https://gitlab.com/Amritorock" />
     <remote name="d810-gh" fetch="https://github.com/MTK-DM-810-UNIFIED" />
     <remote name="org-evp" fetch="https://github.com/MTK-DM-810-UNIFIED" />
     <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="matrixx"/>
-    <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen" />
+    <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gh" revision="thirteen" />
     <project path="device/xiaomi/everpal-kernel" name="device_xiaomi_everpal-kernel" remote="my-gh" revision="thirteen" />
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los-gh" revision="lineage-20" />
     <remove-project name="platform/system/bpf" />
