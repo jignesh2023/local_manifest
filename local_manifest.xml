@@ -7,7 +7,7 @@
     <remote name="pe-gh" fetch="https://github.com/PixelExperience" />
     <remote name="los-gh" fetch="https://github.com/LineageOS" />
     <remote name="org-evp" fetch="https://github.com/MTK-DM-810-UNIFIED" />
-    <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="projectelixer"/>
+    <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="skylineui"/>
     <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen" />
     <project path="device/xiaomi/everpal-kernel" name="device_xiaomi_everpal-kernel" remote="my-gh" revision="thirteen" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los-gh" revision="lineage-20" /> 
