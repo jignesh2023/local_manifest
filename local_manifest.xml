@@ -11,5 +11,4 @@
     <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen" />
     <project path="device/xiaomi/everpal-kernel" name="device_xiaomi_everpal-kernel" remote="my-gh" revision="thirteen" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los-gh" revision="lineage-20" /> 
-    <project path="packages/apps/Updates" name="packages_apps_Updates" remote="org-evp" revision="tiramisu"/>
 </manifest> 
